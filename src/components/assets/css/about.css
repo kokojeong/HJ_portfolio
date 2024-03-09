@@ -1,0 +1,90 @@
+/* about.css */
+
+.about_content{
+  position: relative;
+  width: 100%;
+  height: 950px;
+  background-color: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 180px;
+  /* padding: 5rem 3rem; */
+  z-index: 1;
+}
+
+.about_content:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(to bottom, rgb(255, 199, 199, 0) 0%, rgb(255, 199, 199, 1) 100%);
+}
+
+
+/* title */
+.about_content > .about_title{
+  width: 40rem;
+  margin: 0 auto;
+  font-size: 7rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5rem;
+  border-bottom: 2px solid;
+}
+
+
+/* info */
+.about_content > .about_box{
+  width: 130rem;
+  height: 45rem;
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  /* border:  2px solid; */
+}
+
+.about_content > .about_box > .about_info{
+  line-height: 50px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* text-align: center; */
+}
+
+.about_content > .about_box > .about_info:nth-of-type(4){
+  margin-left: 10rem;
+}
+
+.about_content > .about_box > .about_info:nth-of-type(5){
+  margin-left: 10rem;
+}
+
+.about_content > .about_box > .about_info > .about_icon{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 4rem; */
+}
+
+.about_content > .about_box > .about_info > .about_field > .about_field_title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about_content > .about_box > .about_info > .about_field > .about_field_title > .text{
+  font-size: 3rem;
+}
+
+
+
